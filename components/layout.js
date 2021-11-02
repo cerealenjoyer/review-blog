@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 const name = "Sasha Antigone Lyons";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Theatre reviews";
 
 function Layout({ children, home }) {
   return (
@@ -13,6 +13,12 @@ function Layout({ children, home }) {
       {" "}
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+          rel="stylesheet"
+        />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"

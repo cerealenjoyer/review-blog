@@ -1,13 +1,12 @@
 ---
 title: "The Beauty Queen of Leenane"
 date: "2021-10-21"
+theatre: "Lyric Hammersmith"
 ---
 
-Storytelling of a different type
-and on a whole other level is
 Martin McDonagh’s The Beauty
-Queen of Leenane (Lyric,
-Hammersmith). Fifteen years
+Queen of Leenane really feels like storytelling of a different type
+and on a whole other level. Fifteen years
 after its original staging this
 pitch black tragicomedy has
 lost none of its edge. Maureen,

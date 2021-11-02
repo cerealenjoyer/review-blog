@@ -1,6 +1,7 @@
 ---
 title: "Eulogy"
 date: "2021-10-21"
+theatre: "National Theatre"
 ---
 
 Darkfield Radio's Eulogy is

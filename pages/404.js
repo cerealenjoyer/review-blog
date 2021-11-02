@@ -12,7 +12,7 @@ export default function Custom404() {
         <p>
           🤠 Looks like you f*cked up big time hombre. Why don't you{" "}
           <Link href="/">
-            <a>mosey on back</a>
+            <a>mosey on back </a>
           </Link>
           to the home page and try again?{" "}
         </p>

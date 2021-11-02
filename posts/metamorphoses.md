@@ -1,9 +1,10 @@
 ---
 title: "Metamorphoses"
 date: "2021-10-14"
+theatre: "Globe Theatre"
 ---
 
-_Guest review by Abigail Hodgson_
+_Guest review by Abigail Hodgson, edited by Sasha Lyons_
 
 Every visit to Shakespeare’s
 Globe is a treat. Its indoor venue,

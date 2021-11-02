@@ -28,7 +28,8 @@ function Post({ postData }) {
       <article>
         <h1 className={utilStyles.headingX}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+          <Date dateString={postData.date} />{" "}
+          <span> at the {postData.theatre}</span>
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>

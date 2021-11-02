@@ -1,10 +1,10 @@
 ---
 title: "Overflow"
 date: "2021-09-09"
+theatre: "Bush Theatre"
 ---
 
-Overflow (Bush Theatre)
-is the darkly funny follow-up to
+Overflow is the darkly funny follow-up to
 up-and-coming queer playwright
 Travis Alabanza's smash hit
 Burgerz. Set in the public toilet
