@@ -16,7 +16,7 @@ Dreams was brilliantly staged and performed, neon masks illumi-
 nating the darkness and fantastic choreography which was pretty
 good throughout.
 Newton Faulkner did a fine job in the lead role of Johnny and
-Alexis Gerred was seriously good as Tunny but Lucas Rush stole
+Alexis Gerred was enjoyable as Tunny but Lucas Rush stole
 the show as St Jimmy, the alter ego/drug fuelled other Johnny. He
 also encapsulated the high camp melodrama though he and the
 others did have American accents that bordered Dalston and

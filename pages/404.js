@@ -6,15 +6,15 @@ export default function Custom404() {
   return (
     <Layout>
       <h1 className={utilStyles.headingX}>
-        Oh no! 404 error, this page has not been found
+        My kingdom for a horse! 404 error, this page has not been found
       </h1>
       <div className={utilStyles.lightText}>
         <p>
-          🤠 Looks like you f*cked up big time hombre. Why don't you{" "}
+          🤠 Where shall we three meet again? Back on the{" "}
           <Link href="/">
-            <a>mosey on back </a>
+            <a>home page </a>
           </Link>
-          to the home page and try again?{" "}
+          to try again?{" "}
         </p>
       </div>
     </Layout>

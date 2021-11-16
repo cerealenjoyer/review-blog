@@ -21,14 +21,7 @@ function Home({ allPostsData }) {
           This portfolio page was built by following this extremely thorough{" "}
           <a href="https://nextjs.org/learn"> Next.js tutorial</a>.
         </p>{" "}
-        <p>
-          {" "}
-          All reviews have been written by myself unless stated otherwise, and
-          were first published in the{" "}
-          <a href="https://www.parikiaki.com/">Parikiaki newspaper </a>. With
-          thanks to Panikos Efthimiou, a remarkable editor and an incomparable
-          wit.
-        </p>
+        <p> All reviews have been written by myself unless stated otherwise.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Reviews</h2>
