@@ -19,10 +19,7 @@ function Layout({ children, home }) {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
           rel="stylesheet"
         />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="Sasha Lyons Portfolio" content="Web Development/Writing" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -37,7 +34,7 @@ function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/profile1.png"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -51,7 +48,7 @@ function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/profile1.png"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
@@ -70,7 +67,7 @@ function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">
+          <Link href="/.">
             <a>← Back to home</a>
           </Link>
         </div>

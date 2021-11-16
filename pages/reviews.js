@@ -1,12 +1,11 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import { getSortedProjectsData } from "../lib/projects";
+import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
-import Image from "next/image";
 
-function Home({ allProjectsData }) {
+function Reviews({ allPostsData }) {
   return (
     <Layout home>
       <Head>
@@ -15,38 +14,32 @@ function Home({ allProjectsData }) {
       <section className={utilStyles.headingMd}>
         {" "}
         <p>
-          Hi, I'm Sasha! A web dev from South London. I like writing, #aesthetic
-          stuff and the theatre!
+          In my spare time I write theatre reviews, I've put them here if you're
+          interested.
         </p>
-        <p> You can contact me at sasha.antilyons@gmail.com </p>
+        <p> All reviews have been written by myself unless stated otherwise.</p>
       </section>
       <section
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.flexRow}`}
       >
-        <h2 className={utilStyles.headingLg}>Projects</h2>
         <h2 className={utilStyles.headingLg}>
-          <Link href={`/reviews`}>
-            <a>Reviews</a>
+          <Link href={`/..`}>
+            <a>Projects</a>
           </Link>
         </h2>
+        <h2 className={utilStyles.headingLg}>Reviews</h2>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <ul className={`${utilStyles.list} ${utilStyles.grid}`}>
-          {allProjectsData.map(({ id, date, title }) => (
+        <ul className={utilStyles.list}>
+          {allPostsData.map(({ id, date, title, theatre }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Image
-                priority
-                src={`/images/${id}.png`}
-                // className={utilStyles.borderCircle}
-                height={500}
-                width={800}
-              />
-              <Link href={`/projects/${id}`}>
+              <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
+                <span>, {theatre}</span>
               </small>
             </li>
           ))}
@@ -56,11 +49,11 @@ function Home({ allProjectsData }) {
   );
 }
 export async function getStaticProps() {
-  const allProjectsData = getSortedProjectsData();
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allProjectsData,
+      allPostsData,
     },
   };
 }
-export default Home;
+export default Reviews;
