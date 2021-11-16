@@ -6,7 +6,8 @@ import Link from "next/link";
 import Date from "../components/date";
 import Image from "next/image";
 
-function Home({ allProjectsData }) {
+function Projects({ allProjectsData }) {
+  console.log(allProjectsData);
   return (
     <Layout home>
       <Head>
@@ -14,15 +15,21 @@ function Home({ allProjectsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         {" "}
+        <p>Here are the things I've been working on recently.</p>
         <p>
-          Hi, I'm Sasha! A web dev from South London. I like writing, #aesthetic
-          stuff and the theatre!
+          {" "}
+          All projects were made in collaboration with other students at
+          Founders and Coders.
         </p>
-        <p> You can contact me at sasha.antilyons@gmail.com </p>
       </section>
       <section
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.flexRow}`}
       >
+        <h2 className={utilStyles.headingLg}>
+          <Link href={`..`}>
+            <a>Home</a>
+          </Link>
+        </h2>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <h2 className={utilStyles.headingLg}>
           <Link href={`/reviews`}>
@@ -63,4 +70,4 @@ export async function getStaticProps() {
     },
   };
 }
-export default Home;
+export default Projects;

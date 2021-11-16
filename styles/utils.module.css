@@ -50,3 +50,14 @@
 .lightText {
   color: #666;
 }
+
+.flexRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+}
