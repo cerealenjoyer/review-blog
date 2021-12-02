@@ -15,7 +15,9 @@ location of the story is the location of the production itself:
 audience members are ferried
 into a shipping container, handed a pair of sound-insulating
 headphones and experience
-the story in total darkness. However, the story itself is
+the story in total darkness.
+
+However, the story itself is
 where things fall apart - as well
 as the 'immersive' part of the
 play. Using voice recognition
@@ -34,6 +36,8 @@ rarely more noticeable than a
 character talking about me, and
 then pausing while the word
 'she' was spliced into a line of
-dialogue. Overall a fun demonstration of ways that emergent
+dialogue.
+
+Overall a fun demonstration of ways that emergent
 technology can be incorporated
 into the landscape of modern storytelling.

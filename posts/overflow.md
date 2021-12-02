@@ -10,7 +10,7 @@ Travis Alabanza's smash hit
 Burgerz. Set in the public toilet
 from hell, it follows Rosie (Reece
 Lyons), a twenty-something
-trans millenial, who monologues,
+trans millennial, who monologues,
 quips, reminisces and does
 whatever else she can think of
 to forget about what is waiting
@@ -18,6 +18,7 @@ for her on the other side of the
 bathroom door - the unrelenting
 nightmare that is contemporary
 Britain.
+
 Through her tongue in cheek
 anecdotes of drunken nights
 out, Rosie paints a picture of
@@ -26,7 +27,9 @@ that you only get in public toilets, but also the growing
 national resentment towards
 trans people that this country
 is becoming internationally
-known for. If you've got friends
+known for.
+
+If you've got friends
 or loved ones who are trans,
 this is a great primer for what they're going through,  
 but aside from that it's a sharp,

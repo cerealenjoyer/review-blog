@@ -60,4 +60,5 @@
 .grid {
   display: grid;
   grid: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  grid-gap: 10px;
 }

@@ -13,7 +13,9 @@ lost none of its edge. Maureen,
 40, lives with her elderly mother,
 in a remote Irish village where
 everyone has left for work in
-London or Boston. What follows
+London or Boston.
+
+What follows
 is a hilarious, horrific journey
 into the lives of two people
 who stopped feeling anything

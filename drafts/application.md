@@ -1,7 +1,7 @@
 ---
-title: "Who Am I?"
+title: "Application page"
 date: "2021-10-22"
-link: "https://whoami-app.herokuapp.com/"
+link: "https://cerealenjoyer.github.io/application/"
 repo: "https://github.com/cerealenjoyer/week4-CASE"
 ---
 
