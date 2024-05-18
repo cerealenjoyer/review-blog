@@ -23,11 +23,12 @@ function Home({ allProjectsData }) {
       <section
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.flexRow}`}
       >
+        <h2 className={utilStyles.headingLg}>
+          <Link href={`/reviews`}>Portfolio</Link>
+        </h2>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <h2 className={utilStyles.headingLg}>
-          <Link href={`/reviews`}>
-            <a>Reviews</a>
-          </Link>
+          <Link href={`/reviews`}>Reviews</Link>
         </h2>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -38,12 +39,10 @@ function Home({ allProjectsData }) {
                 priority
                 src={`/images/${id}.png`}
                 // className={utilStyles.borderCircle}
-                height={500}
-                width={800}
+                height={250}
+                width={250}
               />
-              <Link href={`/projects/${id}`}>
-                <a>{title}</a>
-              </Link>
+              <Link href={`/projects/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />

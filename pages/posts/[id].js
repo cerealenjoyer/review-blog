@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 }
 function Post({ postData }) {
   return (
-    <Layout>
+    <Layout tab={"reviews"}>
       <Head>
         <title>{postData.title}</title>
       </Head>

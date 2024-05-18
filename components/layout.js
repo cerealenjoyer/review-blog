@@ -7,14 +7,14 @@ import Link from "next/link";
 const name = "Sasha Antigone Lyons";
 export const siteTitle = "Theatre reviews";
 
-function Layout({ children, home }) {
+function Layout({ children, home, tab }) {
   return (
     <div className={styles.container}>
       {" "}
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
           rel="stylesheet"
@@ -45,33 +45,34 @@ function Layout({ children, home }) {
         ) : (
           <>
             <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile1.png"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
+              <Image
+                priority
+                src="/images/profile1.png"
+                className={utilStyles.borderCircle}
+                height={108}
+                width={108}
+                alt={name}
+              />
             </Link>
             <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+              <Link href="/" className={utilStyles.colorInherit}>
+                {name}
               </Link>
             </h2>
           </>
         )}
       </header>
       <main>{children}</main>
-      {!home && (
+      {console.log(tab)}{" "}
+      {!home && !tab ? (
         <div className={styles.backToHome}>
-          <Link href="/.">
-            <a>← Back to home</a>
-          </Link>
+          <Link href="/.">← Back to home</Link>
         </div>
-      )}
+      ) : tab == "reviews" ? (
+        <div className={styles.backToHome}>
+          <Link href="/reviews">← Back to home</Link>
+        </div>
+      ) : null}
     </div>
   );
 }

@@ -26,15 +26,11 @@ function Projects({ allProjectsData }) {
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.flexRow}`}
       >
         <h2 className={utilStyles.headingLg}>
-          <Link href={`..`}>
-            <a>Home</a>
-          </Link>
+          <Link href={`..`}>Home</Link>
         </h2>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <h2 className={utilStyles.headingLg}>
-          <Link href={`/reviews`}>
-            <a>Reviews</a>
-          </Link>
+          <Link href={`/reviews`}>Reviews</Link>
         </h2>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -48,9 +44,7 @@ function Projects({ allProjectsData }) {
                 height={500}
                 width={800}
               />
-              <Link href={`/projects/${id}`}>
-                <a>{title}</a>
-              </Link>
+              <Link href={`/projects/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />

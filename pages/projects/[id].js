@@ -29,9 +29,7 @@ function Project({ projectData }) {
       </Head>
       <article>
         <h1 className={utilStyles.headingX}>
-          <Link href={projectData.link}>
-            <a>{projectData.title}</a>
-          </Link>
+          <Link href={projectData.link}>{projectData.title}</Link>
         </h1>
         <Image
           priority
@@ -44,9 +42,7 @@ function Project({ projectData }) {
           <Date dateString={projectData.date} />{" "}
         </div>
         <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
-        <Link href={projectData.repo}>
-          <a>Github repo</a>
-        </Link>
+        <Link href={projectData.repo}>Github repo</Link>
       </article>
     </Layout>
   );

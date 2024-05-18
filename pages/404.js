@@ -11,9 +11,7 @@ export default function Custom404() {
       <div className={utilStyles.lightText}>
         <p>
           🤠 Where shall we three meet again? Back on the{" "}
-          <Link href="/">
-            <a>home page </a>
-          </Link>
+          <Link href="/">home page </Link>
           to try again?{" "}
         </p>
       </div>
