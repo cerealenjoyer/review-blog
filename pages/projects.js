@@ -7,7 +7,6 @@ import Date from "../components/date";
 import Image from "next/image";
 
 function Projects({ allProjectsData }) {
-  console.log(allProjectsData);
   return (
     <Layout home>
       <Head>
@@ -15,7 +14,7 @@ function Projects({ allProjectsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         {" "}
-        <p>Here are the things I've been working on recently.</p>
+        <p>Here are the things I put together at FAC.</p>
         <p>
           {" "}
           All projects were made in collaboration with other students at
@@ -26,7 +25,7 @@ function Projects({ allProjectsData }) {
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.flexRow}`}
       >
         <h2 className={utilStyles.headingLg}>
-          <Link href={`..`}>Home</Link>
+          <Link href={`..`}>Portfolio</Link>
         </h2>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <h2 className={utilStyles.headingLg}>
@@ -41,8 +40,8 @@ function Projects({ allProjectsData }) {
                 priority
                 src={`/images/${id}.png`}
                 // className={utilStyles.borderCircle}
-                height={500}
-                width={800}
+                height={150}
+                width={200}
               />
               <Link href={`/projects/${id}`}>{title}</Link>
               <br />

@@ -23,7 +23,10 @@ function Reviews({ allPostsData }) {
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.flexRow}`}
       >
         <h2 className={utilStyles.headingLg}>
-          <Link href={`/..`}>Projects</Link>
+          <Link href={`/..`}>Portfolio</Link>
+        </h2>
+        <h2 className={utilStyles.headingLg}>
+          <Link href={`/projects`}>Projects</Link>
         </h2>
         <h2 className={utilStyles.headingLg}>Reviews</h2>
       </section>
