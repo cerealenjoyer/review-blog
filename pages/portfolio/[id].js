@@ -3,6 +3,7 @@ import { getPortfolioIds, getPortfolioData } from "../../lib/portfolio";
 import Head from "next/head";
 import Date from "../../components/date";
 import Image from "next/image";
+import Link from "next/link";
 import utilStyles from "../../styles/utils.module.css";
 
 export async function getStaticProps({ params }) {
@@ -27,7 +28,9 @@ function Portfolio({ portfolioData }) {
         <title>{portfolioData.title}</title>
       </Head>
       <article>
-        <h1 className={utilStyles.headingX}>{portfolioData.title}</h1>
+        <h1 className={utilStyles.headingX}>
+          <Link href={portfolioData.link}>{portfolioData.title}</Link>
+        </h1>
         <Image
           priority
           src={`/images/${portfolioData.id}.png`}
