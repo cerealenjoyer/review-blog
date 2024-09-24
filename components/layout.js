@@ -64,13 +64,17 @@ function Layout({ children, home, tab }) {
       </header>
       <main>{children}</main>
       {console.log(tab)}{" "}
-      {!home && !tab ? (
+      {(!home && !tab) || tab == "portfolio" ? (
         <div className={styles.backToHome}>
           <Link href="/.">← Back to home</Link>
         </div>
       ) : tab == "reviews" ? (
         <div className={styles.backToHome}>
           <Link href="/reviews">← Back to home</Link>
+        </div>
+      ) : tab == "projects" ? (
+        <div className={styles.backToHome}>
+          <Link href="/projects">← Back to home</Link>
         </div>
       ) : null}
     </div>
